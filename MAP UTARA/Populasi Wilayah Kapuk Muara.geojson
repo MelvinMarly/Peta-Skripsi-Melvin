@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Populasi Wilayah Kapuk Muara",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"xy_coordinate_resolution": 1e-15,
-"features": [
-{ "type": "Feature", "properties": { "GID_4": "IDN.7.5.6.2_1", "GID_0": "IDN", "COUNTRY": "Indonesia", "GID_1": "IDN.7_1", "NAME_1": "JakartaRaya", "GID_2": "IDN.7.5_1", "NAME_2": "JakartaUtara", "GID_3": "IDN.7.5.6_1", "NAME_3": "Penjaringan", "NAME_4": "KapukMuara", "VARNAME_4": "NA", "TYPE_4": "Kelurahan", "ENGTYPE_4": "UrbanCommunity", "CC_4": "3175010002", "Populasi Wilayah Kapuksum": 93899.080253601074 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 106.7755, -6.1418 ], [ 106.7527, -6.1351 ], [ 106.7509, -6.1025 ], [ 106.7627, -6.1036 ], [ 106.7665, -6.1014 ], [ 106.7674, -6.1085 ], [ 106.7702, -6.1123 ], [ 106.7694, -6.115 ], [ 106.7733, -6.1164 ], [ 106.7748, -6.1186 ], [ 106.7731, -6.1213 ], [ 106.7774, -6.134 ], [ 106.7761, -6.1351 ], [ 106.7755, -6.1418 ] ] ] ] } }
-]
-}
