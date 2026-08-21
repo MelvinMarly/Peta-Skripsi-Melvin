@@ -6,7 +6,7 @@
 
  ## Deskripsi Proyek
  
- Repositori ini berisi proyek analisis spasial terhadap persebaran Minimarket di Kecamatan Penjaringan, Jakarta Utara menggunakan Sistem Informasi Geografis (SIG). Analisis dilakukan untuk menggambarkan pola persebaran Minimarket, dan mengidentifikasi jumlah populasi yang tercakup oleh radius layanan Minimarket. Metode yang digunakan adalah Buffer Analysis untuk mendukung visualisasi spasial sebagai bahan pertimbangan dalam perencanaan pembangunan Minimarket di wilayah yang masih belum ada.
+Penelitian ini bertujuan untuk menganalisis dan membandingkan cakupan layanan dari dua jenis Minimarketdi Kecamatan Penjaringan, Jakarta Utara menggunakan pendekatan Sistem Informasi Geografis (SIG). Analisis dilakukan dengan metode Buffer Analysis pada radius 500 meter untuk mengetahui wilayah dan jumlah penduduk yang tercakup oleh layanan masing-masing minimarket.
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
