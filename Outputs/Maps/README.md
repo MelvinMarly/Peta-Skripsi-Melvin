@@ -8,3 +8,5 @@ Folder ini berisi visualisasi dari hasil peta penelitian seperti:
 - Peta populasi penduduk kecamatan Penjaringan.
 - Peta wilayah penduduk yang tercakup buffer.
 - Peta wilayah penduduk yang tidak tercakup buffer
+
+---
