@@ -40,6 +40,16 @@ Setiap titik minimarket digunakan sebagai objek spasial untuk membentuk zona lay
 6. **Batas administrasi**  
    Digunakan untuk membatasi wilayah analisis pada Kecamatan Penjaringan.
 
-- Data lokasi titik minimarket yang berawal dari data mentah di transformasi menjadi data spasial untuk melakukan proses buffer
-- data raw yang digunakan adalah data batas wilayah seluruh administrasi kemudian di processed menjadi batas wilayah yang diperlukan
+## Pembersihan dan Transformasi Data
+
+Data lokasi minimarket terlebih dahulu dipersiapkan agar dapat digunakan sebagai data titik dalam QGIS. Data kemudian digunakan sebagai input Buffer Analysis dengan radius 500 meter.
+
+Tahapan pengolahan spasial meliputi pembuatan Buffer, Dissolve, Union, Clip, Symmetrical Difference, dan Zonal Statistics sesuai kebutuhan analisis.
+
+## Repository ini membedakan antara data raw dan data processed:
+
+data "raw" berisi data yang diperoleh dari sumber awal sebelum dilakukan pengolahan dalam penelitian.
+data "processed" berisi data yang telah dipersiapkan atau diolah sehingga dapat langsung digunakan dalam analisis QGIS.   
+
+
 
