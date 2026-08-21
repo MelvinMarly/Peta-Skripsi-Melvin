@@ -2,7 +2,7 @@
 
  ----------------------------------------------------------------------------------------------------------------------------
 
- ## Deskripsi Proyek
+ ### Deskripsi Proyek
  
 Repository ini merupakan dokumentasi pendamping tugas akhir yang membahas perbandingan cakupan radius layanan Minimarket X dan Minimarket Y menggunakan metode Buffer Analysis pada QGIS. Penelitian dilakukan di Kecamatan Penjaringan, Jakarta Utara, dengan menggunakan titik lokasi Minimarket X dan Minimarket Y serta data populasi penduduk. Analisis spasial dilakukan menggunakan radius buffer sebesar 500 meter untuk mengidentifikasi wilayah yang tercakup dan tidak tercakup oleh radius layanan kedua jenis minimarket. Hasil penelitian digunakan untuk membandingkan persebaran gerai, cakupan radius layanan, serta jumlah penduduk yang berada di dalam dan di luar cakupan radius layanan minimarket.
 
@@ -350,7 +350,7 @@ Universitas Bakrie
 
 ## Citation
 
-M, Melvin. (2026). Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS (Studi Kasus Kecamatan Penjaringan Jakarta Utara). 
+>M, Melvin. (2026). Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS (Studi Kasus Kecamatan Penjaringan Jakarta Utara). 
 Penulis
 
 ---
