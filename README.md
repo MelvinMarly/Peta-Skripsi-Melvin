@@ -150,7 +150,7 @@ Radius 500 meter digunakan sebagai batas analisis spasial untuk mengidentifikasi
 | Jumlah Minimarket Y | 40 gerai |
 
 ---
-# Hasil utama
+# Hasil Penelitian
 
 ## 1. Persebaran Minimarket X
 
@@ -195,6 +195,7 @@ Jumlah gerai terbanyak terdapat di Kelurahan Pluit dengan 17 gerai, sedangkan ju
 <img width="3507" height="2480" alt="Foto buffer minimarket X dan Y" src="https://github.com/user-attachments/assets/7302834d-77cb-4f8b-a2db-48edf6547bee" />
 
 
+
 Buffer dengan radius 500 meter menunjukkan adanya wilayah dengan cakupan layanan yang saling bertumpang tindih.
 Wilayah Penjaringan, Pluit, dan Pejagalan memiliki cakupan buffer yang relatif luas. Beberapa zona buffer pada wilayah tersebut saling bertumpang tindih karena lokasi gerai yang relatif berdekatan. Sebaliknya, sebagian wilayah Kapuk Muara dan Kamal Muara masih memiliki area yang berada di luar cakupan radius buffer kedua minimarket.
 
@@ -205,6 +206,7 @@ Wilayah Penjaringan, Pluit, dan Pejagalan memiliki cakupan buffer yang relatif l
 <img width="3507" height="2480" alt="Foto populasi yang tercakup radius" src="https://github.com/user-attachments/assets/2b93f792-95bd-4e99-ab37-5cb2dbecfd7f" />
 
 
+
 Hasil analisis menunjukkan bahwa sebagian besar wilayah Penjaringan, Pluit, dan Pejagalan berada dalam cakupan radius buffer. Wilayah yang berada di luar radius 500 meter menunjukkan area yang secara spasial membutuhkan jarak lebih dari 500 meter dari titik minimarket terdekat. Hasil ini digunakan sebagai pendekatan spasial dan bukan sebagai ukuran aksesibilitas aktual.
 
 ---
@@ -212,6 +214,7 @@ Hasil analisis menunjukkan bahwa sebagian besar wilayah Penjaringan, Pluit, dan 
 ## 5. Populasi yang Tercakup Minimarket X
 
 <img width="3507" height="2480" alt="Peta populasi minimarket X" src="https://github.com/user-attachments/assets/1dadeca5-3b61-438f-971c-42c9270eb89b" />
+
 
 
 Hasil Zonal Statistics menunjukkan jumlah penduduk yang berada dalam cakupan radius 500 meter Minimarket X sebesar: **204.758 penduduk**
@@ -291,7 +294,7 @@ Penelitian ini memiliki beberapa keterbatasan:
 
 ---
 
-# Cara reproduksi
+# Cara Reproduksi
 
 ## Software
 
@@ -335,6 +338,16 @@ Data spasial penduduk yang digunakan dalam penelitian.
 
 ---
 
+## Author
+
+Melvin Marly
+
+Program Studi Sistem Informasi
+
+Universitas Bakrie
+
+2026
+
 ## Citation
 
 M, Melvin. (2026). Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS (Studi Kasus Kecamatan Penjaringan Jakarta Utara). 
@@ -344,3 +357,8 @@ Penulis
 
 ## License
 
+Materi asli yang dibuat oleh penulis dalam repository ini dapat digunakan sesuai dengan lisensi yang tercantum pada repository.
+
+Data pihak ketiga yang digunakan dalam penelitian tidak termasuk dalam pemberian lisensi ini dan tetap mengikuti ketentuan penggunaan dari sumber data masing-masing.
+
+---
