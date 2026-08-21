@@ -1,1 +1,20 @@
-
+cff-version: 1.2.0
+title: "Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS"
+message: "Jika menggunakan repository ini, silakan mengutip repository dan tugas akhir berikut."
+type: software
+authors:
+  - family-names: "Marly"
+    given-names: "Melvin"
+    affiliation: "Universitas Bakrie"
+repository-code: "https://github.com/MelvinMarly/Peta-Skripsi-Melvin"
+keywords:
+  - "Buffer Analysis"
+  - "QGIS"
+  - "Minimarket"
+  - "Kecamatan Penjaringan"
+  - "Jakarta Utara"
+  - "Analisis Spasial"
+  - "GIS"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-08-22"
