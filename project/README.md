@@ -1,5 +1,5 @@
 ## Project QGIS
----
+
 Folder penelitian ini berisi file proyek aplikasi QGIS 3.42.2
 
 Penelitian ini menggunakan QGIS untuk:
