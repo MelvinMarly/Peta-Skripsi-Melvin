@@ -1,6 +1,4 @@
-## Tugas-Akhir-Melvin Marly
-
->Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS (Studi kasus Kecamatan Penjaringan, Jakarta Utara)
+## Perbandingan Cakupan Radius Layanan Minimarket Menggunakan Buffer Analysis di Quantum GIS (Studi kasus Kecamatan Penjaringan, Jakarta Utara)
 
  ----------------------------------------------------------------------------------------------------------------------------
 
@@ -21,6 +19,24 @@ Penelitian ini bertujuan untuk:
 
 ---
 
+## Area Penelitian
+
+<img width="3507" height="2480" alt="Foto Wilayah Kecamatan Penjaringan" src="https://github.com/user-attachments/assets/03050292-2bac-4475-a4ca-08a1bc70cdef" />
+
+
+Wilayah penelitian berada di: **Kecamatan Penjaringan, Jakarta Utara, DKI Jakarta, Indonesia.**
+
+Kecamatan Penjaringan terdiri dari lima kelurahan yang menjadi cakupan penelitian:
+- Penjaringan
+- Pejagalan
+- Pluit
+- Kapuk Muara
+- Kamal Muara
+
+Objek penelitian berupa titik lokasi Minimarket X dan Minimarket Y yang berada di wilayah Kecamatan Penjaringan.
+
+---
+
 ## Data
 
 Data yang digunakan dalam penelitian terdiri dari:
@@ -31,6 +47,27 @@ Data yang digunakan dalam penelitian terdiri dari:
 | Lokasi Minimarket Y | Google Maps | Titik input Buffer Analysis |
 | Data populasi penduduk | Badan Pusat Statistik Kota Jakarta Utara | Analisis jumlah penduduk yang tercakup radius Buffer |
 | Batas wilayah penelitian | gadm41_IDN | Clipping batas wilayah administrasi |
+
+Jumlah objek minimarket yang digunakan:
+
+| Minimarket | Jumlah Gerai |
+|---|---:|
+| Minimarket X | 64 |
+| Minimarket Y | 40 |
+| Total | 104 |
+
+Sebaran gerai berdasarkan kelurahan:
+
+| Kelurahan | Minimarket X | Minimarket Y |
+|---|---:|---:|
+| Pluit | 14 | 17 |
+| Penjaringan | 19 | 4 |
+| Pejagalan | 11 | 9 |
+| Kapuk Muara | 5 | 3 |
+| Kamal Muara | 15 | 7 |
+| **Total** | **64** | **40** |
+
+Data populasi penduduk Kecamatan Penjaringan yang digunakan dalam analisis berjumlah **372.132 penduduk**
 
 ### Jumlah Observasi atau Titik Data
 
@@ -65,42 +102,6 @@ Setiap titik minimarket digunakan sebagai objek spasial untuk membentuk zona lay
 - data raw yang digunakan adalah data batas wilayah seluruh administrasi kemudian di processed menjadi batas wilayah yang diperlukan
 
 
-## Area Penelitian
-
-Wilayah penelitian berada di: **Kecamatan Penjaringan, Jakarta Utara, DKI Jakarta, Indonesia.**
-
-Kecamatan Penjaringan terdiri dari lima kelurahan yang menjadi cakupan penelitian:
-- Penjaringan
-- Pejagalan
-- Pluit
-- Kapuk Muara
-- Kamal Muara
-
-Objek penelitian berupa titik lokasi Minimarket X dan Minimarket Y yang berada di wilayah Kecamatan Penjaringan.
-
----
-
-Jumlah objek minimarket yang digunakan:
-
-| Minimarket | Jumlah Gerai |
-|---|---:|
-| Minimarket X | 64 |
-| Minimarket Y | 40 |
-| Total | 104 |
-
-Sebaran gerai berdasarkan kelurahan:
-
-| Kelurahan | Minimarket X | Minimarket Y |
-|---|---:|---:|
-| Pluit | 14 | 17 |
-| Penjaringan | 19 | 4 |
-| Pejagalan | 11 | 9 |
-| Kapuk Muara | 5 | 3 |
-| Kamal Muara | 15 | 7 |
-| **Total** | **64** | **40** |
-
-Data populasi penduduk Kecamatan Penjaringan yang digunakan dalam analisis berjumlah **372.132 penduduk**
-
 ---
 
 ## Metodologi
@@ -124,15 +125,12 @@ Tahapan penelitian dilakukan sebagai berikut:
 15. Melakukan interpretasi hasil.
 16. Menyusun laporan penelitian.
 
----
-
 ## Buffer Analysis
 
 Buffer Analysis digunakan untuk membentuk zona berdasarkan jarak tertentu dari titik lokasi minimarket.
 
 Dalam penelitian ini, setiap titik Minimarket X dan Minimarket Y diberikan zona buffer dengan radius: **500 meter**
 Radius 500 meter digunakan sebagai batas analisis spasial untuk mengidentifikasi cakupan radius layanan minimarket terhadap populasi penduduk.
-
 
 ---
 
@@ -152,7 +150,6 @@ Radius 500 meter digunakan sebagai batas analisis spasial untuk mengidentifikasi
 | Jumlah Minimarket Y | 40 gerai |
 
 ---
-
 # Hasil utama
 
 ## 1. Persebaran Minimarket X
