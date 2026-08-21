@@ -1,5 +1,4 @@
 ## Maps
----
 
 Folder ini berisi visualisasi dari hasil peta penelitian seperti:
 
